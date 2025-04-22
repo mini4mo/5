@@ -1,0 +1,68 @@
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #3498db, #9b59b6);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+h2 {
+    font-size: 1.8em;
+    color: #ecf0f1;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article {
+    background: rgba(255, 255, 255, 0.9);
+    color: #2c3e50;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    transition: transform 0.3s;
+}
+article:hover {
+    transform: scale(1.03);
+}
+article a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+article a:hover {
+    text-decoration: underline;
+}
+footer p {
+    font-size: 0.9em;
+}
+@media (max-width: 600px) {
+    article {
+        width: 100%;
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
